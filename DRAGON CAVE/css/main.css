@@ -1,0 +1,190 @@
+.info{
+    background:#000000; /*black color*/
+}
+body{
+    font-family: 'Pacifico', cursive;
+    color:#e25822; /* body color ex.dragon*/
+}
+.primary-color{
+    color:#e25822;  /*fire color*/
+}
+.info h2 {
+    word-spacing: 0.6rem;
+}
+.info a{
+    transition:color 2s ease-in-out;
+}
+.info a:hover{
+    color:#FFA500; /*orange color*/
+}
+/*header section --------------------------------------------*/
+
+#header{
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url(../img/background-pic.jpg);
+    background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)), url(../img/background-pic.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#height-90{
+        min-height: 100vh;
+
+}
+
+.banner h1{
+    border-top: 6px hidden #d3325f;
+    border-bottom: 6px hidden #d3325f;
+    animation: fromleft;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+}
+@keyframes fromleft{
+    0%{ tranform: translatex(-100px);
+        opacity: 0;
+      }
+    50%{
+        transform: translateX(60px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+.main-btn{
+    color: #d3325f;
+    font-size: 2rem;
+    border: 2px solid #d3325f;
+    transition: all is ease-in-out;
+    
+}
+.main-btn:hover{
+    color: #242424;
+    border:2px solid #c9c1ac;
+    background: #c9c1ac;
+}
+
+.dragon-btn{
+    animation: fromRight;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+
+    
+}
+@keyframes fromRight{
+    0%{ tranform: translatex(100px);
+        opacity: 0;
+      }
+    50%{
+        transform: translateX(-60px);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.header-link{
+    display:inline-block;
+    position:absolute;
+    bottom:5%;
+    left:50%;
+    background: #c9c1ac;
+    border-radius:10px;
+    transition:all 2s ease;
+    animation: frombottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+.header-link:hover{
+    color:#242424;
+}
+
+
+@keyframes frombottom{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
